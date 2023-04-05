@@ -2,7 +2,7 @@ void setup(){
   size(800,400);
   background(188,253,255);
   PImage jeeperscreepers;
-jeeperscreepers = loadImage("jeeperscreepers.jpg");
+  jeeperscreepers = loadImage("jeeperscreepers.jpg");
   image(jeeperscreepers,0,0,400,400);
   fill(128,175,87);
   noStroke();
