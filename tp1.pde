@@ -2,6 +2,7 @@ String pantalla;
 int tiempo;
 int velX;
 int posX;
+PFont mifuente;
 PImage boat1;
 PImage boat2;
 PImage boat3;
@@ -11,7 +12,6 @@ color fondo;
 
 void setup() {
 size(640, 480);
-textSize(30);
 textAlign(CENTER,CENTER);
   
 pantalla = "Menú";    
@@ -19,9 +19,9 @@ tiempo = 0;
 velX = 1;
 posX= width; 
   
-boat1 = loadImage("boat1.jpg");
-image(boat1,0,0,640,480);
-  
+mifuente=loadFont("mifuente.vlw");
+textFont(mifuente,40);
+
 frameRate(60);    
 
 }
