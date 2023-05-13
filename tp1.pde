@@ -141,14 +141,6 @@ screen = "p1";
 time = 0;
 }
 
-}else if (screen.equals("p2")) {
-int buttonX = 270;
-int buttonY = 320;
-if (mouseX >= buttonX && mouseX <= buttonX + 100 && mouseY >= buttonY && mouseY <= buttonY + 100) {
-screen = "p3";
-time = 0;
-}
-
 } else if (screen.equals("p3")) {
 int buttonX = 270;
 int buttonY = 320;
