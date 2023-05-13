@@ -58,7 +58,7 @@ velX= 7;
 }
     
 time++;
-if(time >= frameRate*10){      
+if(time >= frameRate*15){      
 screen = "p1";                
 time = 0;                      
 }
@@ -80,7 +80,7 @@ velX= 7;
 }
     
 time++;
-if(time >= frameRate*10){        
+if(time >= frameRate*15){        
 screen = "p2";                
 time = 0;                      
 }
@@ -99,7 +99,7 @@ velX= 7;
 }
 
 time++;
-if(time >= frameRate*10){        
+if(time >= frameRate*15){        
 screen = "p3";                
 time = 0;                      
 }
